@@ -64,7 +64,7 @@ export default function Header({ socket, userId, setUserId }) {
         </Box>
 
         <Box>
-          {userId && (
+          
             <>
               <Button
                 sx={{ color: "white" }}
@@ -74,7 +74,7 @@ export default function Header({ socket, userId, setUserId }) {
                 New Room
               </Button>
             </>
-          )}
+    
         </Box>
       </Box>
     </Card>
